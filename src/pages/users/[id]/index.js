@@ -2,7 +2,7 @@
 const Profile = () => {
   return (
     <div>
-      Conoce todo sobre el Usuario: 
+      Ver su foto de perfil: 
     </div>
   );
 };

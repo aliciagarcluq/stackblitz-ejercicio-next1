@@ -2,7 +2,12 @@
 const Albums = () => {
   return (
     <div>
-      Este es su album 
+          <Image
+      src="/profile.png"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
     </div>
   );
 };
