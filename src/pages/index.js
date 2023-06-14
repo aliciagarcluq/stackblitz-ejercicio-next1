@@ -1,6 +1,6 @@
 import Link from "next/link";
 const Users = () => {
-  const usuarios = [
+  const users = [
     {id:1,name:'paco1'},
     {id:2,name:'paco2'},
     {id:3,name:'paco3'},
@@ -13,7 +13,7 @@ const Users = () => {
       {users.map((user) => (
         <li key={user.id}>
           <Link href={`/users/${user.id}`}>
-            <a>{user.name}</a>
+            - {user.name}
           </Link>
         </li>
       ))}
